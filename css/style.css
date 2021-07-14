@@ -137,7 +137,39 @@ body a{
 }
 
 
-/*footer part*/
+/*Extra part 1*/
+.video iframe{
+    width: 100%;
+}
+/*Extra part 2*/
+
+.update{
+    display: flex;
+}
+.update{
+    width: 50%;
+    margin: 0 auto;
+}
+.email{
+    width: 50%;
+    margin-top: 200px;
+}
+
+#bitton-email {
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #1c1a94;
+    border: 0px; 
+    color: white;
+}
+#email{
+    padding: 8px 30px;
+}
+
+/*footer part */
+
+
 .footer{
 
     width: 483px;
