@@ -1,0 +1,163 @@
+/*import things*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+    
+}
+body a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+
+/*Top part*/
+
+.top-section{
+    display: flex;
+    height: 550px;
+   
+    background-image: linear-gradient(#c000ff,#00b4e3,#2f11dd);
+}
+.top-section:hover img{
+    transform: rotate(30deg);
+}
+
+.top-content{
+    
+    width: 50%;
+    
+}
+.top-content-inside h1{
+    font-size: 64px;
+}
+.top-content-inside{
+  
+    width: 65%;
+    float: right;
+    margin-right: 70px;
+   
+    
+}
+.top-image{
+    width: 50%;
+}
+
+.top-image img{
+    
+    width: 485px;
+
+}
+
+.button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 0px;  
+}
+.button:hover{
+    background-color: white;
+}
+.button:hover a{
+    color: blue;
+}
+
+
+/*Players part*/
+
+.players-section{
+    overflow: hidden;
+   
+   
+}
+
+.players{
+    display: grid;
+    height: 2200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.players:nth-child(1){
+    margin-left: 100px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: -4px 8px 16px 0px rgba(0,0,0,0.52);
+}
+
+.player img{
+    width: 100%;
+}
+
+
+
+/*hightlight section*/
+
+.highlight-section{
+    
+    display: flex;
+    height: 550px;
+   
+}
+
+.highlight-content{
+    
+    width: 50%;
+    
+}
+.highlight-content-inside h1{
+    font-size: 48px;
+}
+.highlight-content-inside{
+  
+    width: 65%;
+    float: right;
+    margin-right: 70px;
+   
+    
+}
+.highlight-image{
+    width: 50%;
+}
+
+.highlight-image img{
+    width: 80%;
+
+}
+
+
+/*footer part*/
+.footer{
+
+    width: 483px;
+    height: 213px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-logo img{
+    width: 80%;
+}
+.footer-icon{
+    margin-top: 20px;
+    
+}
+.footer-icon i{
+    margin-left: 10px;
+    color: rgb(53, 47, 47);
+    font-size: 20px;
+}
+
+.copyright{
+    color: rgba(48, 41, 41, 0.562);
+}
