@@ -193,3 +193,27 @@ body a{
 .copyright{
     color: rgba(48, 41, 41, 0.562);
 }
+
+
+/*--------------------------------
+MEDIA QUERY
+---------------------------------*/
+@media only screen and (max-width:688px) {
+    .top-section{
+        display: block;
+        width: 100%;
+    }
+
+    .player{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 100%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    
+    }
+    .highlight-section, .extra_part1, .extra_part2, .update, .footer{
+        display: none;
+    }
+    
+    
+}
