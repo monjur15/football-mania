@@ -23,6 +23,12 @@ body a{
    padding-top: 50px;
     background-image: linear-gradient(#c000ff,#00b4e3,#2f11dd);
 }
+
+.top-section:hover .button{
+    transform: rotate(360deg);
+    transition: transform 1s;
+
+}
 .top-image:hover img{
     transform: rotate(30deg);
 }
@@ -211,6 +217,7 @@ FOR MOBILE
         height: auto;
         padding: 25px;
         background-image: linear-gradient(#ff0046,#e300cb,#2f11dd);
+        color: white;
     }
     .top-image{
         width: 100%;
@@ -225,7 +232,7 @@ FOR MOBILE
         height: auto;
         width: 100%;
 
-        padding: 0px 10px 0px 7%;
+        padding: 0px 0px 0px 7%;
         grid-row-gap: 20px;
         margin-top: 50px;
         
@@ -295,7 +302,9 @@ MEDIA QUERY
         height: auto;
         padding: 25px;
         background-image: linear-gradient(#feff00,#00e31e,#1172dd);
+        
     }
+    
     .top-image{
         width: 100%;
     }
