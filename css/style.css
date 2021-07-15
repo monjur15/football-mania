@@ -85,8 +85,9 @@ body a{
     margin-bottom: 100px;
     
 }
-.players:nth-child(1){
-    
+.player:hover{
+    background-color: #262626;
+    color: white;
 }
 
 .player{
