@@ -198,6 +198,11 @@ body a{
 /*--------------------------------
 MEDIA QUERY
 ---------------------------------*/
+
+
+/*--------------------------------
+FOR MOBILE
+---------------------------------*/
 @media only screen and (max-width:688px) {
     
     .top-section{
@@ -273,4 +278,86 @@ MEDIA QUERY
     
     
     
+}
+
+/*--------------------------------
+MEDIA QUERY
+
+++++++++ For Tablet
+---------------------------------*/
+
+@media only screen and (min-width:689px) and (max-width:992px){
+
+
+    .top-section{
+        display: block;
+        height: auto;
+        padding: 25px;
+        background-image: linear-gradient(#feff00,#00e31e,#1172dd);
+    }
+    .top-image{
+        width: 100%;
+    }
+    .top-image img{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 100%;
+
+        padding: 0px 0px 0px 10px;
+        grid-row-gap: 20px;
+        margin-top: 50px;
+        
+    
+    }
+
+    
+
+    .highlight-section{
+        display: block;
+        height: auto;
+    }
+
+    .highlight-content{
+        width: 100%;
+        
+    }
+    .highlight-image{
+        width: 100%;
+        
+    }
+    .highlight-image img{
+        width: 100%;
+        margin-top: 50px;
+       
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .update{
+       display: block;
+    }
+    .update .email{
+        width: 100%;
+    }
+    .update .up-image{
+        width: 100%;
+       
+    }
+    .up-image img{
+        width: 100%;
+    }
+
+    .footer{
+        height: 100%;
+        width: 100%;
+        
+    }
+
 }
